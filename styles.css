@@ -1,0 +1,320 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    @font-face {
+        font-family: Avenir Next;
+        src: url(Avenir Next Condensed.ttf) format("truetype");
+    }
+}
+
+.navbar-area{
+    position: absolute;
+    width: 100%;
+    height: 104px !important;
+    background-color: #33A0D9;
+}
+
+.img-logo{
+    position: absolute;
+    width: 185px;
+    height: 70px;
+    left: 6.94%;
+    right: 80.21%;
+    top: 20.19%;
+    top: 21px;
+    left: 100px;
+    bottom: 12.5%;
+}
+
+.nav-item-1st{
+    position: absolute;
+    width: 164px;
+    height: 32px;
+    left: 54.1%;
+    right: 34.51%;
+    top: 34.62%;
+    bottom: 34.62%;
+    top: 36px;
+    left: 779px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.nav-item-2nd{
+    position: absolute;
+    width: 160px;
+    height: 32px;
+    left: 70.76%;
+    right: 18.12%;
+    top: 34.62%;
+    top: 36px;
+    left: 1019px;
+    bottom: 34.62%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    /* or 36px */
+
+    text-align: center;
+}
+
+ .btn-navbar{
+    position: absolute;
+    width: 144px;
+    height: 54px;
+    
+    left: 87.15%;
+    right: 2.85%;
+    top: 24.04%;
+    top: 25px;
+    left: 1255px;
+
+    bottom: 24.04%;
+
+    background: #FFFFFF !important;
+    border-radius: 8px;
+
+    font-family: 'Poppins' !important;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black !important;
+} 
+
+.bg-img{
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 593px;
+    left: 0px;
+    top: 315px;
+    background: url('Back drop 1.png');
+}
+
+
+.heading{
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    position: absolute !important;
+    width: 389px !important;
+    height: 58px !important;
+    left: 483px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px !important;
+    line-height: 120%;
+    top: 183px !important;
+}
+
+.form-label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.205em;
+    color: #000000 !important;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /*margin: 0px 66px !important;*/
+}
+
+.latest_pass{
+    position: absolute;
+    width: 261px;
+    height: 33px;
+    left: 483px !important;
+    top: 271px;
+    text-align: left !important;
+}
+
+.re_enter_pass{
+    position: absolute;
+    width: 450px !important;
+    height: 33px !important;
+    left: 483px !important;
+    top: 424px;
+}
+
+.form-control{
+    position: absolute;
+    width: 417px !important;
+    height: 45px;
+    background: #F2F2F2;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.form-box-1{
+    left: 483px !important;
+    top: 321px;
+    cursor: pointer;
+}
+
+.form-box-2{
+    left: 483px !important;
+    top: 474px;
+}
+
+.btn-body{
+    position: absolute;
+    width: 441px;
+    height: 68px;
+    left: 483px;
+    top: 599px !important;
+    background-color: black !important;
+}
+
+
+.form-control-section small{
+    text-align: left !important;
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: #EB5757;
+    visibility: visible;
+}
+
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 138px;
+    left: 0%;
+    right: 0%;
+    top: 846px;
+    bottom: 0%;
+    background: #2180B3;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.about{
+    position: relative;
+    top: 51px;
+    left: 237.5px;
+    width: 108px;
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 150%;
+    height: 36px;
+}
+
+.privacy{
+    position: relative;
+    left: 394.5px;
+    top:  51px;
+    width: 160px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 150%;
+    height: 36px;
+}
+
+.tutorials{
+    position: relative;
+    left: 603.5px;
+    top:  51px;
+    width: 100px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 150%;
+    height: 36px;
+}
+
+.ToS{
+    position: relative;
+    left: 752.5px;
+    top:  51px;
+    width: 191px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 150%;
+    height: 36px;
+}
+
+#success{
+    visibility: hidden;
+}
+
+.suc_heading{
+    position: absolute;
+    top: 287px;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    position: absolute !important;
+    left: 483px;
+    line-height: 150%;
+    width: 481px;
+    height: 58px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px !important;
+    line-height: 120%;
+
+}
+
+.suc_para{
+    position: relative;
+    top: 368px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    position: absolute !important;
+    left: 483px;
+    font-family: 'Sans';
+    font-style: normal;
+    font-size: 24px !important;
+    line-height: 150%;
+    font-weight: 500;
+    font-size: 24px;
+    width: 543px;
+    height: 72px;
+}
+
+
